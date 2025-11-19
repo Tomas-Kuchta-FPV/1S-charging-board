@@ -1,0 +1,516 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9cc1c422-b7e2-4755-8274-40776b10fed1")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text_box "IO"
+		(exclude_from_sim no)
+		(at 25.4 25.4 0)
+		(size 13.97 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0e9152a-e740-4355-957b-b03fbf34fbfc")
+	)
+	(wire
+		(pts
+			(xy 29.21 46.99) (xy 31.75 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c3d2d4-f447-4a1d-924e-c7969eb56b3f")
+	)
+	(wire
+		(pts
+			(xy 31.75 27.94) (xy 34.29 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81a9366d-fe5b-495a-bd08-0822f22c4231")
+	)
+	(wire
+		(pts
+			(xy 29.21 62.23) (xy 31.75 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d37ed69-3007-4ebf-ad9b-3ee4a4fb0ea3")
+	)
+	(wire
+		(pts
+			(xy 31.75 30.48) (xy 34.29 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a9218a-4feb-4849-a3fb-f0e91acf2b1a")
+	)
+	(wire
+		(pts
+			(xy 29.21 59.69) (xy 31.75 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3725fe-cb46-4f87-890a-fee34f8007fd")
+	)
+	(wire
+		(pts
+			(xy 29.21 49.53) (xy 31.75 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e25d2e8d-9c54-454e-99fa-83c84027b17a")
+	)
+	(label "V-"
+		(at 29.21 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a304cbf-3f62-480b-9c9d-bbf51d4daae1")
+	)
+	(label "V+"
+		(at 29.21 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c4eecaa-d213-4e26-b45d-fdbfc041fde0")
+	)
+	(label "V+"
+		(at 34.29 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8685519d-f567-44c1-b4b9-1233212bf50a")
+	)
+	(label "V+"
+		(at 29.21 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "abd4ff86-bd03-4d13-ac13-c3e328072221")
+	)
+	(label "V-"
+		(at 29.21 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "afaba2d5-614e-45f7-9418-0641d6af7e83")
+	)
+	(label "V-"
+		(at 34.29 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dac5a5fc-9b16-4f8f-9c1d-7f3244dda14a")
+	)
+	(hierarchical_label "V-"
+		(shape input)
+		(at 31.75 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53778243-a0c5-40ca-897e-341d417c4d4f")
+	)
+	(hierarchical_label "V+"
+		(shape input)
+		(at 31.75 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ade2bff6-207f-45de-aab2-4823050413ec")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 36.83 49.53 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "754a5cda-1751-4f89-8285-e168f0f7822c")
+		(property "Reference" "XT1"
+			(at 36.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30"
+			(at 36.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+			(at 36.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6eb2005a51a52592b3f19e8a450c54c8/XT30PW-M.pdf"
+			(at 36.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 36.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C431092"
+			(at 36.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc7d7749-92ab-42e2-af6e-ab66d184b39b")
+		)
+		(pin "2"
+			(uuid "8ceee566-d16c-408f-afcc-34a6889b0347")
+		)
+		(instances
+			(project "1S-charging-board_PCB"
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/28ca4ce6-e862-4878-a716-8a1624d12ea5"
+					(reference "XT5")
+					(unit 1)
+				)
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/64580f3d-940e-4c3c-84c7-7a17efccee74"
+					(reference "XT4")
+					(unit 1)
+				)
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/92ec1954-bd9d-43ac-a983-2031f8a91c06"
+					(reference "XT3")
+					(unit 1)
+				)
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/9311fbfe-8b5e-4b73-befd-ebebffa8f4af"
+					(reference "XT1")
+					(unit 1)
+				)
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/a125f5c8-9d0d-441d-8edb-6650108a9fb8"
+					(reference "XT6")
+					(unit 1)
+				)
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/c15293b2-8fa2-4963-be98-4be6830fbf90"
+					(reference "XT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 36.83 62.23 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "977b788e-e080-46ab-806e-55755dc4ca5e")
+		(property "Reference" "BT1"
+			(at 36.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BT2.0"
+			(at 36.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BT20:BT20"
+			(at 36.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 36.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 36.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Aliexpress" "https://www.aliexpress.com/item/1005004465425088.html"
+			(at 36.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5a1b616-039b-41d7-a8f9-e17315c4b876")
+		)
+		(pin "2"
+			(uuid "c7bf7c2e-9f77-45e9-b180-0e4f783d720e")
+		)
+		(instances
+			(project "1S-charging-board_PCB"
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/28ca4ce6-e862-4878-a716-8a1624d12ea5"
+					(reference "BT5")
+					(unit 1)
+				)
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/64580f3d-940e-4c3c-84c7-7a17efccee74"
+					(reference "BT4")
+					(unit 1)
+				)
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/92ec1954-bd9d-43ac-a983-2031f8a91c06"
+					(reference "BT3")
+					(unit 1)
+				)
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/9311fbfe-8b5e-4b73-befd-ebebffa8f4af"
+					(reference "BT1")
+					(unit 1)
+				)
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/a125f5c8-9d0d-441d-8edb-6650108a9fb8"
+					(reference "BT6")
+					(unit 1)
+				)
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/c15293b2-8fa2-4963-be98-4be6830fbf90"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

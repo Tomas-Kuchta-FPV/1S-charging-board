@@ -1,0 +1,151 @@
+(footprint "BT20"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "aace264f-b6d0-4b47-8e2d-24b44533d7dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BT20"
+		(at 0 3.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2e5d305e-acf3-42ff-ba13-5af5077ea7a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "515ea9fb-d004-4e44-9945-489c49ba8017")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df7e3242-b8de-41fc-b6aa-9b722d4bbb38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -2.1)
+		(end 3 -2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1ff229cc-162e-4bc8-a550-fc08d8824151")
+	)
+	(fp_line
+		(start -1 2.1)
+		(end 3 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5cfebe60-b214-4d37-af09-1a0a33f2a059")
+	)
+	(fp_line
+		(start 3 -2.1)
+		(end 3 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f42d6a8-293e-4c9b-8fc3-66ef8a5455d1")
+	)
+	(fp_arc
+		(start -1 2.1)
+		(mid -3 0)
+		(end -1 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbc04eec-1f77-4ef5-8ae3-399221fda922")
+	)
+	(fp_text user "+"
+		(at 1.6 -0.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1193355a-b0e2-46c1-83da-0e35e99e8dd6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ae1695c6-3d79-437e-9383-4a454aa0053b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -1 0)
+		(size 1.8 2.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2f0635ac-ceb1-47ce-be5b-055c6379ac6c")
+	)
+	(pad "2" thru_hole oval
+		(at 1 0)
+		(size 1.8 2.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "277a3ed1-71fa-4ebe-8955-9085401b1cb0")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/BT20.pretty/BT2.0-from_Riley.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
