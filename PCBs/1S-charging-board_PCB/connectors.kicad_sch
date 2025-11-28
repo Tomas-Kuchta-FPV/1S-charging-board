@@ -200,6 +200,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 74.93) (xy 31.75 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a88f4c23-e6ed-4f6f-8c7e-edecf807cbe3")
+	)
+	(wire
+		(pts
 			(xy 31.75 30.48) (xy 34.29 30.48)
 		)
 		(stroke
@@ -227,6 +237,16 @@
 			(type default)
 		)
 		(uuid "e25d2e8d-9c54-454e-99fa-83c84027b17a")
+	)
+	(wire
+		(pts
+			(xy 29.21 72.39) (xy 31.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8862987-89b6-4de3-8697-ae1717aa13d0")
 	)
 	(label "V-"
 		(at 29.21 49.53 180)
@@ -258,6 +278,16 @@
 		)
 		(uuid "8685519d-f567-44c1-b4b9-1233212bf50a")
 	)
+	(label "V-"
+		(at 29.21 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a23081b8-dc6f-414b-b777-263d5a419bab")
+	)
 	(label "V+"
 		(at 29.21 59.69 180)
 		(effects
@@ -277,6 +307,16 @@
 			(justify right bottom)
 		)
 		(uuid "afaba2d5-614e-45f7-9418-0641d6af7e83")
+	)
+	(label "V+"
+		(at 29.21 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7e85607-dfd7-49a8-9f12-7e5e586cf914")
 	)
 	(label "V-"
 		(at 34.29 30.48 0)
@@ -309,6 +349,103 @@
 			(justify right)
 		)
 		(uuid "ade2bff6-207f-45de-aab2-4823050413ec")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 36.83 74.93 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69c67786-9dca-4dc5-bfa4-ea27d91fe772")
+		(property "Reference" "PT1"
+			(at 36.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PH2.0"
+			(at 36.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 36.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6eb2005a51a52592b3f19e8a450c54c8/XT30PW-M.pdf"
+			(at 36.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 36.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C131337"
+			(at 36.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38aec09d-a29f-4861-b9cb-1f2abb4bf0c3")
+		)
+		(pin "2"
+			(uuid "1ffc0459-8b4a-4233-94bb-2b8673a31ca0")
+		)
+		(instances
+			(project "1S-charging-board_PCB"
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/28ca4ce6-e862-4878-a716-8a1624d12ea5"
+					(reference "PT5")
+					(unit 1)
+				)
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/64580f3d-940e-4c3c-84c7-7a17efccee74"
+					(reference "PT4")
+					(unit 1)
+				)
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/92ec1954-bd9d-43ac-a983-2031f8a91c06"
+					(reference "PT3")
+					(unit 1)
+				)
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/9311fbfe-8b5e-4b73-befd-ebebffa8f4af"
+					(reference "PT1")
+					(unit 1)
+				)
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/a125f5c8-9d0d-441d-8edb-6650108a9fb8"
+					(reference "PT6")
+					(unit 1)
+				)
+				(path "/db6a3515-476e-4a92-95a0-11d9c5be923d/c15293b2-8fa2-4963-be98-4be6830fbf90"
+					(reference "PT2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
