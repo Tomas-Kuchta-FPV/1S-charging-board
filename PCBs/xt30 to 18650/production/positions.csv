@@ -1,0 +1,9 @@
+﻿Designator,Mid X,Mid Y,Rotation,Layer
+BGA,42.4,-53.0,180.0,bottom
+PRETTY INDUCTOR FOOTPRINT,21.4,-16.0,180.0,bottom
+X1,56.9,-13.5,0.0,top
+X2,56.9,-37.0,0.0,top
+X3,56.9,-60.5,0.0,top
+XT1,4.925,-17.0,90.0,top
+XT2,4.925,-37.0,90.0,top
+XT3,4.925,-57.0,90.0,top

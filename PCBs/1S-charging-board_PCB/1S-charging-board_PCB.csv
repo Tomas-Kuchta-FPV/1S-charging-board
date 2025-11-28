@@ -1,0 +1,7 @@
+"Reference","Qty","Value","Footprint","LCSC","Aliexpress"
+"BT1,BT2,BT3,BT4,BT5,BT6","6","BT2.0","BT20:BT20","-","https://www.aliexpress.com/item/1005004465425088.html"
+"F1","1","2A","Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder","C960026",""
+"J1","1","Power Input","Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal","C98732",""
+"J2","1","Balance input","Connector_JST:JST_XH_B7B-XH-A_1x07_P2.50mm_Vertical","C144398",""
+"J3","1","Voltage selector","Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical","C2897408",""
+"XT1,XT2,XT3,XT4,XT5,XT6","6","XT30","Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal","C431092",""

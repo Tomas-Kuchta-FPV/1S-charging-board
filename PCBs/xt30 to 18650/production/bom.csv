@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BGA,BGA-152_14x18mm_Layout13x17_P1mm,1,BGA-152_14x18mm_Layout13x17_P1mm,
+PRETTY INDUCTOR FOOTPRINT,L_Sagami_CER1257B,1,L_Sagami_CER1257B,
+"X1, X2, X3",BatteryHolder_Keystone_1042_1x18650,3,18650 holder,C2988620
+"XT1, XT2, XT3",AMASS_XT30PW-F_1x02_P2.50mm_Horizontal,3,XT30,C2913282
