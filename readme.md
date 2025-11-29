@@ -1,9 +1,9 @@
 # 1S charging board
 > A compact adapter board that lets standard RC chargers safely charge 1S batteries.
 
-{jeste neco o tom co dela}  
-It supports BT2.0/A30 and XT30 connectors.  
-18650 batteries are also supported with XT30 to 18650 adapter.  
+It allows you to charge up to six 1s batteries on a universal RC charger.  
+Some chargers can display series resistance and capacity. So you know the conditions of the cells.  
+Connectors like **BT2.0/A30** and **XT30** are suported. And with an adapter, you can charge **18650** batteries.  
 
 ## Photos
 ### Main PCB
@@ -12,10 +12,10 @@ It supports BT2.0/A30 and XT30 connectors.
 ![XT30 to 18650](Images/XT30%20to%2018650.png)
 
 ## Motivation
-I have a great RC charger (ISDT D1) and it mesures internal resistance and capacity which is awesome!  
-And there are a lot of 18650 cells of unknown condititon laying in my workshop, I would like to know if they are still good or of they belong to the trash.  
-Also I love RC hobby. So why not to use a universal RC charger for RC and maker stuff.  
-That's why there is as main PCB with XT30 and BT2.0 connectors. And a extension board for 18650
+I have a great RC charger (ISDT D1), and it measures internal resistance and capacity, which is awesome!  
+There are a lot of 18650 cells of unknown condition lying in my workshop. I would like to know if they are still good or if they belong in the trash.  
+Also, I love RC hobby. So why not use a universal both RC charger for RC and maker stuff?  
+That's why there is a main PCB with XT30 and BT 2.0 connectors. And an extension board for 18650.
 
 ### Design constraints
 - It should work with these battery types and connctors:
