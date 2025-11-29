@@ -32,7 +32,7 @@ That's why there is a main PCB with XT30 and BT 2.0 connectors. And an extension
 | Item                       | Qty | Price | Link                                                  |
 | :------------------------- | :-- | :---- | :---------------------------------------------------- |
 |                            |     |       |                                                       |
-| BT2.0M                     | 6   | 4.83  | https://www.aliexpress.com/item/1005004465425088.html |
+| BT2.0M                     | 6   | 7.15  | https://www.aliexpress.com/item/1005004465425088.html |
 | 2A Polyfuse                | 1   | 0.51  | https://www.lcsc.com/product-detail/C960026.html      |
 | XT60 - Power Input         | 1   | 0.59  | https://www.lcsc.com/product-detail/C98732.html       |
 | 1x7P -  Balance input      | 1   | 0.54  | https://www.lcsc.com/product-detail/C144398.html      |
@@ -43,4 +43,4 @@ That's why there is a main PCB with XT30 and BT 2.0 connectors. And an extension
 | 18650 holder               | 6   | 7.52  | https://www.lcsc.com/product-detail/C2988620.html     |
 | LCSC Shipping              |     | 11.2  |                                                       |
 | PCB fabrication + shipping | 2   | 21.9  |                                                       |
-|                            |     | 52.13 |                                                       |
+|                            |     | 54.45 |                                                       |
